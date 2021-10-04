@@ -1,5 +1,5 @@
 'use strict';
-import BookForm from './bookForm.jsx';
+// import BookForm from './bookForm.jsx';
 
 const e = React.createElement;
 
@@ -19,7 +19,20 @@ class Body extends React.Component {
             <div>
                 <h1>Rate Your Books</h1>
                 <br />
-                <BookForm />
+                <div className="enterForm">
+                    <h2>Enter Your Book Below</h2>
+                    <form>
+                        <label htmlFor="ftitle">Title:</label>
+                        <input type='text' id='ftitle' />
+                        <label htmlFor="fauthor">Author (First Last):</label>
+                        <input type='text' id='fauthor' />
+                        <label htmlFor="fyear">Release Year:</label>
+                        <input type='text' id='fyear' />
+                        <label htmlFor="frating">Rating (1-5):</label>
+                        <input type='text' id='frating' />
+                        <button id="submit" onClick={submit}>Submit</button>
+                    </form>
+                </div>
 
                 <h2>All Your Ratings</h2>
 
