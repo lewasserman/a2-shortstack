@@ -33,7 +33,7 @@ const handleGet = function( request, response ) {
 }
 
 const handlePost = function( request, response ) {
-   console.log(`handlePost request: ${request}`);
+  console.log(`handlePost request: ${request}`);
   let dataString = ''
 
   request.on( 'data', function( data ) {
