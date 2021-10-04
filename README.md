@@ -3,10 +3,13 @@ Readme
 
 ## Rate Your Books
 **Links**:
+
 Github: https://github.com/lewasserman/a2-shortstack
+
 Glitch: https://a4-lauren-wasserman.glitch.me
 
 -I changed my a2 project so that it is using react intead of just html. I created a react component which has all of my html elements. (My a2 project did not give the user the ability to edit or remove data. I figured it was okay to keep it this way, since that was within the guidelines for a2. I did add these features to a3.)
+
 -I made another React component for my enter book form, but when I tried to import the file for that component into the main react component I got this error:
 
 Uncaught ReferenceError: require is not defined
@@ -28,7 +31,9 @@ hZ @ babel.min.js:13
 fZ @ babel.min.js:13
 
 -I believe that import is not handled by the web-browser and so I attempted to fix this by using webpack. 
+
 -The version of the code that I am submitting which works is in the branch "react". This branch does not use webpack and uses one React component. I believe that this fulfills the requirments of a4-components as it does re-implement the client side portion of my a2 using React.
+
 -The version of the code with which I attempted to use webpack is in the branch "a4".
 
 -The new technology improved my development experience overall. I enjoyed, using React as I like the ability to create custom components. However, my issues with webpack did hinder me. I also think it was good experience to write the same code in different formats (html and React).
