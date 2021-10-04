@@ -1,16 +1,22 @@
 {
-  "name": "Rate Your Books",
+  "name": "RateYourBooks",
   "version": "",
   "description": "Rate your books and view them all in one place",
   "author": "Lauren Wasserman",
   "scripts": {
     "start": "node server.improved.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack"
   },
   "dependencies": {
-    "mime": "^2.4.4"
+    "mime": "^2.4.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"

@@ -1,4 +1,5 @@
 'use strict';
+// import React from "react";
 
 const e = React.createElement;
 
@@ -8,7 +9,7 @@ export default class BookForm extends React.Component {
         // this.state = { liked: false };
     }
 
-    const submit = function( e ) {
+    submit = function( e ) {
         // prevent default form action from being carried out
         e.preventDefault()
 
